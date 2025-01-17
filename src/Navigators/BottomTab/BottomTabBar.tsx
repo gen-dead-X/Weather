@@ -1,7 +1,7 @@
 import React from 'react';
 import {BottomTabBarProps} from '@react-navigation/bottom-tabs';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import {Animated, View, TouchableOpacity} from 'react-native';
+import {Animated, TouchableOpacity} from 'react-native';
 
 export default function BottomTabBar({
   state,
@@ -9,7 +9,7 @@ export default function BottomTabBar({
   navigation,
 }: Readonly<BottomTabBarProps>) {
   return (
-    <View className="absolute bottom-5 left-5 right-5 z-10 flex-row items-center justify-around rounded-full border-t border-gray-300 bg-white shadow-lg dark:border-gray-700 dark:bg-slate-800">
+    <Animated.View className="absolute bottom-5 left-5 right-5 z-10 flex-row items-center justify-around rounded-xl bg-white shadow-lg dark:border-gray-700 dark:bg-slate-800">
       {state.routes.map((route, index) => {
         const {options} = descriptors[route.key];
         const label =
@@ -57,17 +57,17 @@ export default function BottomTabBar({
             onLongPress={onLongPress}
             className="flex items-center justify-center p-2.5">
             <MaterialIcons
-              name={iconName}
+              name={iconName ?? 'home'}
               size={30}
-              color={isFocused ? '#673ab7' : '#9ca3af'}
+              color={isFocused ? 'black' : '#9ca3af'}
             />
             <Animated.Text
-              className={`mt-1 text-xs ${isFocused ? 'text-purple-700' : 'text-gray-400'} dark:${isFocused ? 'text-purple-400' : 'text-gray-400'}`}>
+              className={`mt-1 text-xs ${isFocused ? 'text-black' : 'text-gray-400'} dark:${isFocused ? 'text-purple-400' : 'text-gray-400'}`}>
               {typeof label === 'string'
                 ? label
                 : label({
                     focused: isFocused,
-                    color: isFocused ? '#673ab7' : '#9ca3af',
+                    color: isFocused ? 'black' : '#9ca3af',
                     position: 'below-icon',
                     children: '',
                   })}
@@ -75,6 +75,6 @@ export default function BottomTabBar({
           </TouchableOpacity>
         );
       })}
-    </View>
+    </Animated.View>
   );
 }

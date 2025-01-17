@@ -26,7 +26,7 @@ export default function HomeStackNavigator() {
     <HomeStack.Navigator
       initialRouteName="Home"
       screenOptions={{
-        headerShown: true,
+        headerShown: false,
         headerTransparent: true,
         headerTintColor: getTheme() === 'dark' ? 'white' : 'black',
         contentStyle: {
