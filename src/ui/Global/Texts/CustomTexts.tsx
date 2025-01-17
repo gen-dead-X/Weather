@@ -22,7 +22,7 @@ export function TextBarlow({children, style, ...props}: TextProps) {
       allowFontScaling={false}
       adjustsFontSizeToFit={false}
       className={`text-black dark:text-white ${props.className}`}
-      style={[styles.jakarta, style]}
+      style={[styles.barlow, style]}
       {...props}>
       {children}
     </Text>
@@ -36,7 +36,7 @@ export function TextRighteous({children, style, ...props}: TextProps) {
       allowFontScaling={false}
       adjustsFontSizeToFit={false}
       className={`text-black dark:text-white ${props.className}`}
-      style={[styles.jakarta, style]}
+      style={[styles.righteous, style]}
       {...props}>
       {children}
     </Text>
@@ -45,12 +45,12 @@ export function TextRighteous({children, style, ...props}: TextProps) {
 
 const styles = StyleSheet.create({
   jakarta: {
-    fontFamily: 'PlusJakarta-Sans',
+    fontFamily: 'PlusJakartaSans-Regular',
   },
   barlow: {
-    fontFamily: 'Barlow-Condensed',
+    fontFamily: 'BarlowCondensed-Regular',
   },
   righteous: {
-    fontFamily: 'Righteous',
+    fontFamily: 'Righteous-Regular',
   },
 });
