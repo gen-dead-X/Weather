@@ -1,6 +1,7 @@
 import {create} from 'zustand';
 import storage from '../storage/storage';
 import {Appearance} from 'react-native';
+import {WeatherData} from '../types/weather.types';
 
 type Bear = {
   bears: number;
@@ -42,4 +43,18 @@ export const useStore = create<StoreState>(set => ({
   decreasePopulation: () => set((state: Bear) => ({bears: state.bears - 1})),
   removeAllBears: () => set({bears: 0}),
   updateBears: (newBears: Bear) => set({bears: newBears.bears}),
+}));
+
+export type WeatherStoreState = {
+  weather: WeatherData;
+  setWeather: (weather: WeatherData) => void;
+  weatherLoading: boolean;
+  setWeatherLoading: (weatherLoading: boolean) => void;
+};
+
+export const useWeatherStore = create<WeatherStoreState>(set => ({
+  weather: {} as WeatherData,
+  setWeather: (weather: WeatherData) => set({weather}),
+  weatherLoading: true,
+  setWeatherLoading: (weatherLoading: boolean) => set({weatherLoading}),
 }));

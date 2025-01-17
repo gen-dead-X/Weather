@@ -10,13 +10,10 @@ export default function useThemeHandler() {
   const setAppTheme = useStore((state: StoreState) => state.setAppTheme);
   const storage = useMMKV();
 
-  // Handle theme changes
   useEffect(() => {
     const handleThemeChange = () => {
       if (theme === 'system') {
-        console.log('Getting Color Scheme');
         const systemTheme = Appearance.getColorScheme();
-        console.log('Set System ThemeContext', {systemTheme});
         colorScheme.set(systemTheme ?? 'light');
         setAppTheme(systemTheme ?? 'light');
       } else {

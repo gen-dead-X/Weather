@@ -81,9 +81,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.reactnativeboilerplate"
+    namespace "com.kickstart.weather"
     defaultConfig {
-        applicationId "com.reactnativeboilerplate"
+        applicationId "com.kickstart.weather"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "ReactNativeBoilerplate.app"
-               BlueprintName = "ReactNativeBoilerplate"
-               ReferencedContainer = "container:ReactNativeBoilerplate.xcodeproj">
+               BuildableName = "KickstartWeather.app"
+               BlueprintName = "KickstartWeather"
+               ReferencedContainer = "container:KickstartWeather.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ReactNativeBoilerplateTests.xctest"
-               BlueprintName = "ReactNativeBoilerplateTests"
-               ReferencedContainer = "container:ReactNativeBoilerplate.xcodeproj">
+               BuildableName = "KickstartWeatherTests.xctest"
+               BlueprintName = "KickstartWeatherTests"
+               ReferencedContainer = "container:KickstartWeather.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ReactNativeBoilerplate.app"
-            BlueprintName = "ReactNativeBoilerplate"
-            ReferencedContainer = "container:ReactNativeBoilerplate.xcodeproj">
+            BuildableName = "KickstartWeather.app"
+            BlueprintName = "KickstartWeather"
+            ReferencedContainer = "container:KickstartWeather.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ReactNativeBoilerplate.app"
-            BlueprintName = "ReactNativeBoilerplate"
-            ReferencedContainer = "container:ReactNativeBoilerplate.xcodeproj">
+            BuildableName = "KickstartWeather.app"
+            BlueprintName = "KickstartWeather"
+            ReferencedContainer = "container:KickstartWeather.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

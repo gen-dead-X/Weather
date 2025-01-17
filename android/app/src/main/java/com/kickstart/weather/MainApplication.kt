@@ -1,4 +1,4 @@
-package com.reactnativeboilerplate
+package com.kickstart.weather
 
 import android.app.Application
 import com.facebook.react.PackageList
