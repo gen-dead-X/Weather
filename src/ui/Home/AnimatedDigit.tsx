@@ -32,10 +32,10 @@ export default function AnimatedDigit({
         {perspective: 1000},
       ],
       opacity: opacity.value,
-      shadowColor: '#000',
+      shadowColor: 'gray',
       shadowOffset: {width: 0, height: 4},
-      shadowOpacity: 0.5,
-      shadowRadius: 5,
+      shadowOpacity: 1,
+      shadowRadius: 10,
       elevation: 10, // For Android
     };
   });
