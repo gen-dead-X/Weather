@@ -2,8 +2,12 @@ import React from 'react';
 import {ActivityIndicator, ScrollView, View} from 'react-native';
 
 import ThemeToggler from '../../ui/ThemeToggler/ThemeToggler';
-import {Text} from 'react-native-paper';
 import {useWeatherStore} from '../../store/store';
+import {
+  TextBarlow,
+  TextJakarta,
+  TextRighteous,
+} from '../../ui/Global/Texts/CustomTexts';
 
 export default function Home() {
   const weather = useWeatherStore(state => state.weather);
@@ -26,7 +30,9 @@ export default function Home() {
           <ActivityIndicator />
         ) : (
           <View>
-            <Text>{weather.currentConditions.feelslike}</Text>
+            <TextRighteous className="text-6xl">
+              {weather.currentConditions.feelslike}
+            </TextRighteous>
           </View>
         )}
       </View>
