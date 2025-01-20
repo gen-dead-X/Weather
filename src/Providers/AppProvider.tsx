@@ -13,12 +13,14 @@ export default function AppProvider({
 }: Readonly<{children: React.ReactNode}>) {
   const theme = useStore(state => state.appTheme);
 
+  console.log('theme', theme);
+
   return (
     <GestureHandlerRootView>
       <BottomSheetModalProvider>
         <PaperProvider theme={themeColors}>
           <NavigationContainer>
-            <SafeAreaView className={'flex-1 bg-white dark:bg-slate-900'}>
+            <SafeAreaView className={'flex-1 bg-white dark:bg-[#171717]'}>
               <StatusBar
                 barStyle={theme === 'dark' ? 'light-content' : 'dark-content'}
                 backgroundColor={theme === 'dark' ? 'black' : 'white'}

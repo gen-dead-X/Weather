@@ -4,13 +4,11 @@ import {format} from 'date-fns';
 import AnimatedDateDigit from './AnimatedDateDigit';
 
 export default function DateContainer() {
-  const [timeString, setTimeString] = useState(
-    format(new Date(), 'hh:mm:ss a'),
-  );
+  const [timeString, setTimeString] = useState(format(new Date(), 'hh:mm a'));
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setTimeString(format(new Date(), 'hh:mm:ss a'));
+      setTimeString(format(new Date(), 'hh:mm a'));
     }, 1000);
 
     return () => clearInterval(interval);

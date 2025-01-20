@@ -8,6 +8,7 @@ import React from 'react';
 
 import AppNavigator from './Navigators/App/AppNavigator';
 import AppProvider from './Providers/AppProvider';
+import WebView from 'react-native-webview';
 
 function App(): React.JSX.Element {
   return (

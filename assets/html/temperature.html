@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive 3D Weather Digits</title>
+  </head>
+  <body>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.172.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.172.0/examples/jsm/",
+          "three/addons/controls/OrbitControls.js": "https://cdn.jsdelivr.net/npm/three@0.172.0/examples/jsm/controls/OrbitControls.js",
+          "three/addons/controls/DragControls.js": "https://cdn.jsdelivr.net/npm/three@0.172.0/examples/jsm/controls/DragControls.js"
+        }
+      }
+    </script>
+    <script type="module">
+      import * as THREE from 'three';
+      import {FontLoader} from 'three/addons/loaders/FontLoader.js';
+      import {TextGeometry} from 'three/addons/geometries/TextGeometry.js';
+      import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+      import {DragControls} from 'three/addons/controls/DragControls.js';
+
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(
+        75,
+        window.innerWidth / window.innerHeight, // Dynamic aspect ratio
+        0.1,
+        1000,
+      );
+      const renderer = new THREE.WebGLRenderer({alpha: true});
+      renderer.setSize(window.innerWidth, window.innerHeight); // Dynamic size
+      renderer.setClearColor(0x000000, 0);
+      renderer.shadowMap.enabled = true; // Enable shadow maps
+      document.body.appendChild(renderer.domElement);
+
+      // Ambient and Directional Light
+      const ambientLight = new THREE.AmbientLight(0xffffff, 1.0);
+      scene.add(ambientLight);
+
+      const directionalLight = new THREE.DirectionalLight(0xffffff, 2.0);
+      directionalLight.position.set(0, 0, 200); // Keep it static
+      directionalLight.castShadow = true; // Enable shadows for the light
+      scene.add(directionalLight);
+
+      // Interactive Point Light
+      const pointLight = new THREE.PointLight(0xffffff, 1, 1000);
+      pointLight.position.set(50, 50, 50);
+      pointLight.castShadow = true;
+      scene.add(pointLight);
+
+      // Function to Get Theme Color
+      function getThemeColor() {
+        return window.matchMedia('(prefers-color-scheme: dark)').matches
+          ? 0xffffff
+          : 0x000000;
+      }
+
+      // Function to Create Text Mesh
+      function createTextMesh(text, font, color) {
+        const geometry = new TextGeometry(text, {
+          font: font,
+          size: 80,
+          height: 20,
+          curveSegments: 12,
+          bevelEnabled: true,
+          bevelThickness: 2,
+          bevelSize: 1.5,
+          bevelOffset: 0,
+          bevelSegments: 5,
+        });
+        const material = new THREE.MeshPhongMaterial({
+          // Use MeshStandardMaterial
+          color: color,
+          metalness: 0.5,
+          roughness: 0.5,
+        });
+        const mesh = new THREE.Mesh(geometry, material);
+        mesh.castShadow = true; // Enable shadows for the mesh
+        mesh.receiveShadow = true; // Enable shadows on the mesh
+        return mesh;
+      }
+
+      // Function to Animate Spring Effect
+      function animateSpring(mesh, targetPosition, delay = 0) {
+        const stiffness = 0.06; // Control spring stiffness
+        const damping = 0.8; // Control spring damping
+        setTimeout(() => {
+          const velocity = new THREE.Vector3();
+          const animation = () => {
+            const force = targetPosition
+              .clone()
+              .sub(mesh.position)
+              .multiplyScalar(stiffness);
+            velocity.add(force).multiplyScalar(damping);
+            mesh.position.add(velocity);
+
+            if (
+              velocity.length() > 0.01 ||
+              mesh.position.distanceTo(targetPosition) > 0.01
+            ) {
+              // Stop when close enough
+              requestAnimationFrame(animation);
+            }
+          };
+          animation();
+        }, delay);
+      }
+
+      // Load Font and Add Digits
+      const loader = new FontLoader();
+      const digitMeshes = []; // Store all digit meshes for interaction
+      loader.load(
+        'https://threejs.org/examples/fonts/helvetiker_bold.typeface.json',
+        font => {
+          const color = getThemeColor();
+          const positions = [-60, 20]; // Position for '2' and '5'
+
+          ['2', '5'].forEach((digit, index) => {
+            const mesh = createTextMesh(digit, font, color);
+            mesh.position.set(positions[index], -window.innerHeight / 2, 0); // Start from bottom
+            mesh.originalPosition = new THREE.Vector3(positions[index], 0, 0); // Store original position
+            digitMeshes.push(mesh);
+            scene.add(mesh);
+
+            // Animate to center position with delay
+            animateSpring(mesh, mesh.originalPosition, index * 300); // 300ms delay between digits
+          });
+
+          // Enable Drag Controls
+          const dragControls = new DragControls(
+            digitMeshes,
+            camera,
+            renderer.domElement,
+          );
+          dragControls.addEventListener('dragstart', () => {
+            controls.enabled = false; // Disable OrbitControls during drag
+          });
+          dragControls.addEventListener('dragend', event => {
+            controls.enabled = true; // Re-enable OrbitControls after drag
+            // Spring effect to return digit to its original position
+            const mesh = event.object;
+            animateSpring(mesh, mesh.originalPosition);
+          });
+        },
+      );
+
+      // Add OrbitControls
+      const controls = new OrbitControls(camera, renderer.domElement);
+      controls.enableDamping = true;
+      controls.dampingFactor = 0.25;
+      controls.enableZoom = true;
+
+      // Adjust Camera Position
+      camera.position.z = 300; // Adjust camera position
+
+      // Handle Window Resize
+      window.addEventListener('resize', () => {
+        const width = window.innerWidth;
+        const height = window.innerHeight;
+        renderer.setSize(width, height);
+        camera.aspect = width / height;
+        camera.updateProjectionMatrix();
+      });
+
+      // Handle Theme Change
+      window
+        .matchMedia('(prefers-color-scheme: dark)')
+        .addEventListener('change', () => {
+          location.reload();
+        });
+
+      // Render Loop
+      function animate() {
+        requestAnimationFrame(animate);
+        controls.update();
+        renderer.render(scene, camera);
+      }
+      animate();
+    </script>
+  </body>
+</html>

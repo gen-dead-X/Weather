@@ -7,7 +7,7 @@ export default function Home() {
     <ScrollView contentContainerStyle={{flexGrow: 1}} className="flex-1">
       <View
         className={
-          'flex flex-1 items-center justify-center gap-14 bg-white dark:bg-gray-900'
+          'flex flex-1 items-center justify-center gap-14 bg-white dark:bg-[#171717]'
         }>
         <TemperatureContainer />
       </View>

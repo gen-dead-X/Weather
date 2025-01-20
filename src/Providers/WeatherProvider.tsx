@@ -28,10 +28,6 @@ export default function WeatherProvider({
             const currentTime = new Date();
 
             if (differenceInHours(currentTime, cachedTime) < 4) {
-              console.log(
-                'Using cached weather data.',
-                JSON.parse(cachedWeather),
-              );
               setWeather(JSON.parse(cachedWeather));
               return;
             }

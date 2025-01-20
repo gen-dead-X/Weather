@@ -8,50 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* KickstartWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* KickstartWeatherTests.m */; };
+		08073C967D0740DEA52FE4A7 /* Righteous-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAB963A72E0947309740E3D5 /* Righteous-Regular.ttf */; };
+		126C0FB1BBCF4D0997A09C38 /* PlusJakartaSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38AE0D7149AE48CA9A6F50CD /* PlusJakartaSans-BoldItalic.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		90EA2DBBC8F9444ADFBDA50E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
-		A34768B79A6A200352C0B431 /* libPods-KickstartWeather-KickstartWeatherTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4AD8FA8E63ACF1143B819F /* libPods-KickstartWeather-KickstartWeatherTests.a */; };
-		C11DC83EA332E6649C3F65B6 /* libPods-KickstartWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8FF04955E0636EE92E3CC0 /* libPods-KickstartWeather.a */; };
-		2C23693A2F6A45A3A438AB64 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = BFF328BF99BF44DC9E7C0C58 /* OFL.txt */; };
-		C89A5BF7D1674F7594DBE9CB /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 683FF109D15C4321A4181093 /* README.txt */; };
-		872ABD804E0A418BB62B1844 /* BarlowCondensed-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 875894C91E08432CB617A851 /* BarlowCondensed-Black.ttf */; };
-		F301A2EF668244A0B6F508EB /* BarlowCondensed-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1420A5B87A584745B511C06A /* BarlowCondensed-BlackItalic.ttf */; };
-		B7EA89F4114A481D821D7BEA /* BarlowCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69451985C77D4BD9B0C5F5C6 /* BarlowCondensed-Bold.ttf */; };
-		B3FEC6021FB24CF8A5D4D049 /* BarlowCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 231A6A94355B4385856193B5 /* BarlowCondensed-BoldItalic.ttf */; };
-		AC2291EAA5A94CB2942B4F77 /* BarlowCondensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EB0EFC87F054750AFF992E8 /* BarlowCondensed-ExtraBold.ttf */; };
-		AAB9A6D8F1004FCDBD6FB7FB /* BarlowCondensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D112D57DA8A48D9AEAB120C /* BarlowCondensed-ExtraBoldItalic.ttf */; };
 		13FB5FFD96CD4E0D8D0ECFCD /* BarlowCondensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CFFBC50B652460BA9B4E52E /* BarlowCondensed-ExtraLight.ttf */; };
-		99B22C9598B949069FEB8615 /* BarlowCondensed-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE75B57AE05E4AE6B05F467E /* BarlowCondensed-ExtraLightItalic.ttf */; };
-		CDA7EF6DDE3B49A9A19071F5 /* BarlowCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFE9612548B3493A967C95B7 /* BarlowCondensed-Italic.ttf */; };
-		B9BBFD4A1AEB49408E733A7D /* BarlowCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88A139B8F31D41A0B44AFE1A /* BarlowCondensed-Light.ttf */; };
-		D97C989DC9C3465B81AAC206 /* BarlowCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB644A686D409F922D4503 /* BarlowCondensed-LightItalic.ttf */; };
-		9B4A93AD3FFC4B228C7BDF41 /* BarlowCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A875FD16387848BEA660F76E /* BarlowCondensed-Medium.ttf */; };
-		8EDA167EBDD9457FAD6CCE2B /* BarlowCondensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55D0BB278451432FA6EE7B43 /* BarlowCondensed-MediumItalic.ttf */; };
-		588E678B91754FD3BE4595A4 /* BarlowCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 019A5165311E4A9E9D58A9B1 /* BarlowCondensed-Regular.ttf */; };
-		6CDC3B7E576F4BD4B4449756 /* BarlowCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B17224900EB42A3AFCA1AEB /* BarlowCondensed-SemiBold.ttf */; };
-		E3851235890049B4A2D18EC2 /* BarlowCondensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EAD05C44E50423489D49B52 /* BarlowCondensed-SemiBoldItalic.ttf */; };
-		B519A20A03BF4AF9959F64FB /* BarlowCondensed-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB4FFE2DA7F746A3AB797240 /* BarlowCondensed-Thin.ttf */; };
-		D50D4AEFE0A0459586F5913D /* BarlowCondensed-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A4767DA822439EBDFF7A30 /* BarlowCondensed-ThinItalic.ttf */; };
-		30331A2F7EEB4F61A311E797 /* PlusJakartaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47483558AE904EA0B476F676 /* PlusJakartaSans-Bold.ttf */; };
-		126C0FB1BBCF4D0997A09C38 /* PlusJakartaSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38AE0D7149AE48CA9A6F50CD /* PlusJakartaSans-BoldItalic.ttf */; };
-		B32D96A9B3134DA880AEF9DA /* PlusJakartaSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E41E27F269784C22875E7A7A /* PlusJakartaSans-ExtraBold.ttf */; };
-		A08367E353DA48AB8DCF6A7A /* PlusJakartaSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5435ADB8F4A47818B10A6A2 /* PlusJakartaSans-ExtraBoldItalic.ttf */; };
 		264F79A0C5F644E4B5D9B3A3 /* PlusJakartaSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 198369D1253142C1993FE02F /* PlusJakartaSans-ExtraLight.ttf */; };
-		ABAFA5030F8F442481A501DE /* PlusJakartaSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B88D48D47D84F039EBFD925 /* PlusJakartaSans-ExtraLightItalic.ttf */; };
-		F1AC27AE9BB04AD8957D7A70 /* PlusJakartaSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F0C606265C849A3A6F11324 /* PlusJakartaSans-Italic-VariableFont_wght.ttf */; };
-		452D7292F3264B25B3BBAC8C /* PlusJakartaSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D18DC46FE0714872AF18DAC6 /* PlusJakartaSans-Italic.ttf */; };
-		8782C8DFEA544FDCAF6A3208 /* PlusJakartaSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82ADC58C282449E9A23DD4AE /* PlusJakartaSans-Light.ttf */; };
-		AB4A35C44C324751BC352E27 /* PlusJakartaSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6508AA1EC6AB4CE0A36A8BE4 /* PlusJakartaSans-LightItalic.ttf */; };
-		8B8E5F23DBA84420B7E8D50B /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D07E25695DF4B86BDED0D1C /* PlusJakartaSans-Medium.ttf */; };
-		9E09E2461ADF414283916A20 /* PlusJakartaSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80CACBF5621E4E69ADD82D1A /* PlusJakartaSans-MediumItalic.ttf */; };
-		861C4358D2B04553A3CF94A9 /* PlusJakartaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B28375FF3578455DA0A10310 /* PlusJakartaSans-Regular.ttf */; };
-		69BEEBFFDD28456181CB4C62 /* PlusJakartaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F4366414D95419B9514CDCF /* PlusJakartaSans-SemiBold.ttf */; };
+		2C23693A2F6A45A3A438AB64 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = BFF328BF99BF44DC9E7C0C58 /* OFL.txt */; };
+		30331A2F7EEB4F61A311E797 /* PlusJakartaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47483558AE904EA0B476F676 /* PlusJakartaSans-Bold.ttf */; };
 		3AA67D9AB00A4C4F95875448 /* PlusJakartaSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DB5F4CBD9F04FA593A34BFC /* PlusJakartaSans-SemiBoldItalic.ttf */; };
+		452D7292F3264B25B3BBAC8C /* PlusJakartaSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D18DC46FE0714872AF18DAC6 /* PlusJakartaSans-Italic.ttf */; };
+		588E678B91754FD3BE4595A4 /* BarlowCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 019A5165311E4A9E9D58A9B1 /* BarlowCondensed-Regular.ttf */; };
+		69BEEBFFDD28456181CB4C62 /* PlusJakartaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F4366414D95419B9514CDCF /* PlusJakartaSans-SemiBold.ttf */; };
+		6CDC3B7E576F4BD4B4449756 /* BarlowCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B17224900EB42A3AFCA1AEB /* BarlowCondensed-SemiBold.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		82ED8458BC9AE02C7C94838A /* libPods-KickstartWeather-KickstartWeatherTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8130706215A4AEC066835D73 /* libPods-KickstartWeather-KickstartWeatherTests.a */; };
+		861C4358D2B04553A3CF94A9 /* PlusJakartaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B28375FF3578455DA0A10310 /* PlusJakartaSans-Regular.ttf */; };
+		872ABD804E0A418BB62B1844 /* BarlowCondensed-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 875894C91E08432CB617A851 /* BarlowCondensed-Black.ttf */; };
+		8782C8DFEA544FDCAF6A3208 /* PlusJakartaSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82ADC58C282449E9A23DD4AE /* PlusJakartaSans-Light.ttf */; };
+		8B8E5F23DBA84420B7E8D50B /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D07E25695DF4B86BDED0D1C /* PlusJakartaSans-Medium.ttf */; };
+		8EDA167EBDD9457FAD6CCE2B /* BarlowCondensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55D0BB278451432FA6EE7B43 /* BarlowCondensed-MediumItalic.ttf */; };
+		90EA2DBBC8F9444ADFBDA50E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		9921327EAAF843B288AF174E /* PlusJakartaSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F098573143D2484EBF37330C /* PlusJakartaSans-VariableFont_wght.ttf */; };
-		08073C967D0740DEA52FE4A7 /* Righteous-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAB963A72E0947309740E3D5 /* Righteous-Regular.ttf */; };
+		99B22C9598B949069FEB8615 /* BarlowCondensed-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE75B57AE05E4AE6B05F467E /* BarlowCondensed-ExtraLightItalic.ttf */; };
+		9B4A93AD3FFC4B228C7BDF41 /* BarlowCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A875FD16387848BEA660F76E /* BarlowCondensed-Medium.ttf */; };
+		9E09E2461ADF414283916A20 /* PlusJakartaSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80CACBF5621E4E69ADD82D1A /* PlusJakartaSans-MediumItalic.ttf */; };
+		A08367E353DA48AB8DCF6A7A /* PlusJakartaSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5435ADB8F4A47818B10A6A2 /* PlusJakartaSans-ExtraBoldItalic.ttf */; };
+		AAB9A6D8F1004FCDBD6FB7FB /* BarlowCondensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D112D57DA8A48D9AEAB120C /* BarlowCondensed-ExtraBoldItalic.ttf */; };
+		AB4A35C44C324751BC352E27 /* PlusJakartaSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6508AA1EC6AB4CE0A36A8BE4 /* PlusJakartaSans-LightItalic.ttf */; };
+		ABAFA5030F8F442481A501DE /* PlusJakartaSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B88D48D47D84F039EBFD925 /* PlusJakartaSans-ExtraLightItalic.ttf */; };
+		AC2291EAA5A94CB2942B4F77 /* BarlowCondensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EB0EFC87F054750AFF992E8 /* BarlowCondensed-ExtraBold.ttf */; };
+		B32D96A9B3134DA880AEF9DA /* PlusJakartaSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E41E27F269784C22875E7A7A /* PlusJakartaSans-ExtraBold.ttf */; };
+		B3FEC6021FB24CF8A5D4D049 /* BarlowCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 231A6A94355B4385856193B5 /* BarlowCondensed-BoldItalic.ttf */; };
+		B519A20A03BF4AF9959F64FB /* BarlowCondensed-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB4FFE2DA7F746A3AB797240 /* BarlowCondensed-Thin.ttf */; };
+		B64F728400D574D9C5C673F7 /* libPods-KickstartWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED537CE24AE3393B41AD14B /* libPods-KickstartWeather.a */; };
+		B7EA89F4114A481D821D7BEA /* BarlowCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69451985C77D4BD9B0C5F5C6 /* BarlowCondensed-Bold.ttf */; };
+		B9BBFD4A1AEB49408E733A7D /* BarlowCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88A139B8F31D41A0B44AFE1A /* BarlowCondensed-Light.ttf */; };
+		C89A5BF7D1674F7594DBE9CB /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 683FF109D15C4321A4181093 /* README.txt */; };
+		CDA7EF6DDE3B49A9A19071F5 /* BarlowCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFE9612548B3493A967C95B7 /* BarlowCondensed-Italic.ttf */; };
+		D50D4AEFE0A0459586F5913D /* BarlowCondensed-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A4767DA822439EBDFF7A30 /* BarlowCondensed-ThinItalic.ttf */; };
+		D97C989DC9C3465B81AAC206 /* BarlowCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB644A686D409F922D4503 /* BarlowCondensed-LightItalic.ttf */; };
+		E3851235890049B4A2D18EC2 /* BarlowCondensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EAD05C44E50423489D49B52 /* BarlowCondensed-SemiBoldItalic.ttf */; };
+		F1AC27AE9BB04AD8957D7A70 /* PlusJakartaSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F0C606265C849A3A6F11324 /* PlusJakartaSans-Italic-VariableFont_wght.ttf */; };
+		F301A2EF668244A0B6F508EB /* BarlowCondensed-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1420A5B87A584745B511C06A /* BarlowCondensed-BlackItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,10 @@
 		00E356EE1AD99517003FC87E /* KickstartWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickstartWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* KickstartWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KickstartWeatherTests.m; sourceTree = "<group>"; };
-		1100C6623030CD597D04254B /* Pods-KickstartWeather-KickstartWeatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickstartWeather-KickstartWeatherTests.debug.xcconfig"; path = "Target Support Files/Pods-KickstartWeather-KickstartWeatherTests/Pods-KickstartWeather-KickstartWeatherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		019A5165311E4A9E9D58A9B1 /* BarlowCondensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-Regular.ttf"; path = "../assets/fonts/BarlowCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		0DB5F4CBD9F04FA593A34BFC /* PlusJakartaSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-SemiBoldItalic.ttf"; path = "../assets/fonts/PlusJakartaSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		0DD333DC585E057C1AA5BB28 /* Pods-KickstartWeather-KickstartWeatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickstartWeather-KickstartWeatherTests.release.xcconfig"; path = "Target Support Files/Pods-KickstartWeather-KickstartWeatherTests/Pods-KickstartWeather-KickstartWeatherTests.release.xcconfig"; sourceTree = "<group>"; };
+		0F0C606265C849A3A6F11324 /* PlusJakartaSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-Italic-VariableFont_wght.ttf"; path = "../assets/fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* KickstartWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KickstartWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = KickstartWeather/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = KickstartWeather/AppDelegate.mm; sourceTree = "<group>"; };
@@ -76,50 +79,47 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = KickstartWeather/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = KickstartWeather/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = KickstartWeather/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		2C0A04A7A8577FEBD3E4E354 /* Pods-KickstartWeather-KickstartWeatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickstartWeather-KickstartWeatherTests.release.xcconfig"; path = "Target Support Files/Pods-KickstartWeather-KickstartWeatherTests/Pods-KickstartWeather-KickstartWeatherTests.release.xcconfig"; sourceTree = "<group>"; };
-		5E8FF04955E0636EE92E3CC0 /* libPods-KickstartWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KickstartWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1420A5B87A584745B511C06A /* BarlowCondensed-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-BlackItalic.ttf"; path = "../assets/fonts/BarlowCondensed-BlackItalic.ttf"; sourceTree = "<group>"; };
+		198369D1253142C1993FE02F /* PlusJakartaSans-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-ExtraLight.ttf"; path = "../assets/fonts/PlusJakartaSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		1D07E25695DF4B86BDED0D1C /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-Medium.ttf"; path = "../assets/fonts/PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
+		231A6A94355B4385856193B5 /* BarlowCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-BoldItalic.ttf"; path = "../assets/fonts/BarlowCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		38AE0D7149AE48CA9A6F50CD /* PlusJakartaSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-BoldItalic.ttf"; path = "../assets/fonts/PlusJakartaSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		47483558AE904EA0B476F676 /* PlusJakartaSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-Bold.ttf"; path = "../assets/fonts/PlusJakartaSans-Bold.ttf"; sourceTree = "<group>"; };
+		4CBB644A686D409F922D4503 /* BarlowCondensed-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-LightItalic.ttf"; path = "../assets/fonts/BarlowCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		4EB0EFC87F054750AFF992E8 /* BarlowCondensed-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-ExtraBold.ttf"; path = "../assets/fonts/BarlowCondensed-ExtraBold.ttf"; sourceTree = "<group>"; };
+		55D0BB278451432FA6EE7B43 /* BarlowCondensed-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-MediumItalic.ttf"; path = "../assets/fonts/BarlowCondensed-MediumItalic.ttf"; sourceTree = "<group>"; };
+		609422E308A0BE00BC7BF87B /* Pods-KickstartWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickstartWeather.debug.xcconfig"; path = "Target Support Files/Pods-KickstartWeather/Pods-KickstartWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		6508AA1EC6AB4CE0A36A8BE4 /* PlusJakartaSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-LightItalic.ttf"; path = "../assets/fonts/PlusJakartaSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		683FF109D15C4321A4181093 /* README.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = README.txt; path = "../assets/fonts/Plus Jakarta Sans/README.txt"; sourceTree = "<group>"; };
+		69451985C77D4BD9B0C5F5C6 /* BarlowCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-Bold.ttf"; path = "../assets/fonts/BarlowCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		6E1052F2FF09D79065EA06CB /* Pods-KickstartWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickstartWeather.release.xcconfig"; path = "Target Support Files/Pods-KickstartWeather/Pods-KickstartWeather.release.xcconfig"; sourceTree = "<group>"; };
+		6ED537CE24AE3393B41AD14B /* libPods-KickstartWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KickstartWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFFBC50B652460BA9B4E52E /* BarlowCondensed-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-ExtraLight.ttf"; path = "../assets/fonts/BarlowCondensed-ExtraLight.ttf"; sourceTree = "<group>"; };
+		7D112D57DA8A48D9AEAB120C /* BarlowCondensed-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-ExtraBoldItalic.ttf"; path = "../assets/fonts/BarlowCondensed-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		7EAD05C44E50423489D49B52 /* BarlowCondensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-SemiBoldItalic.ttf"; path = "../assets/fonts/BarlowCondensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		80CACBF5621E4E69ADD82D1A /* PlusJakartaSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-MediumItalic.ttf"; path = "../assets/fonts/PlusJakartaSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		8130706215A4AEC066835D73 /* libPods-KickstartWeather-KickstartWeatherTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KickstartWeather-KickstartWeatherTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = KickstartWeather/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AC4DA1A4D068D443DBB276AB /* Pods-KickstartWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickstartWeather.debug.xcconfig"; path = "Target Support Files/Pods-KickstartWeather/Pods-KickstartWeather.debug.xcconfig"; sourceTree = "<group>"; };
-		CE70B513165FAE0D88C3F3BA /* Pods-KickstartWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickstartWeather.release.xcconfig"; path = "Target Support Files/Pods-KickstartWeather/Pods-KickstartWeather.release.xcconfig"; sourceTree = "<group>"; };
-		DC4AD8FA8E63ACF1143B819F /* libPods-KickstartWeather-KickstartWeatherTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KickstartWeather-KickstartWeatherTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82ADC58C282449E9A23DD4AE /* PlusJakartaSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-Light.ttf"; path = "../assets/fonts/PlusJakartaSans-Light.ttf"; sourceTree = "<group>"; };
+		875894C91E08432CB617A851 /* BarlowCondensed-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-Black.ttf"; path = "../assets/fonts/BarlowCondensed-Black.ttf"; sourceTree = "<group>"; };
+		88A139B8F31D41A0B44AFE1A /* BarlowCondensed-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-Light.ttf"; path = "../assets/fonts/BarlowCondensed-Light.ttf"; sourceTree = "<group>"; };
+		8B17224900EB42A3AFCA1AEB /* BarlowCondensed-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-SemiBold.ttf"; path = "../assets/fonts/BarlowCondensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		8B88D48D47D84F039EBFD925 /* PlusJakartaSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-ExtraLightItalic.ttf"; path = "../assets/fonts/PlusJakartaSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		90A4767DA822439EBDFF7A30 /* BarlowCondensed-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-ThinItalic.ttf"; path = "../assets/fonts/BarlowCondensed-ThinItalic.ttf"; sourceTree = "<group>"; };
+		9F4366414D95419B9514CDCF /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-SemiBold.ttf"; path = "../assets/fonts/PlusJakartaSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		A875FD16387848BEA660F76E /* BarlowCondensed-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-Medium.ttf"; path = "../assets/fonts/BarlowCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		AAB963A72E0947309740E3D5 /* Righteous-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Righteous-Regular.ttf"; path = "../assets/fonts/Righteous-Regular.ttf"; sourceTree = "<group>"; };
+		B28375FF3578455DA0A10310 /* PlusJakartaSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-Regular.ttf"; path = "../assets/fonts/PlusJakartaSans-Regular.ttf"; sourceTree = "<group>"; };
+		BFF328BF99BF44DC9E7C0C58 /* OFL.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = OFL.txt; path = "../assets/fonts/Barlow Condensed/OFL.txt"; sourceTree = "<group>"; };
+		CE75B57AE05E4AE6B05F467E /* BarlowCondensed-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-ExtraLightItalic.ttf"; path = "../assets/fonts/BarlowCondensed-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		D18DC46FE0714872AF18DAC6 /* PlusJakartaSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-Italic.ttf"; path = "../assets/fonts/PlusJakartaSans-Italic.ttf"; sourceTree = "<group>"; };
+		E41E27F269784C22875E7A7A /* PlusJakartaSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-ExtraBold.ttf"; path = "../assets/fonts/PlusJakartaSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E5435ADB8F4A47818B10A6A2 /* PlusJakartaSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-ExtraBoldItalic.ttf"; path = "../assets/fonts/PlusJakartaSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		EB4FFE2DA7F746A3AB797240 /* BarlowCondensed-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-Thin.ttf"; path = "../assets/fonts/BarlowCondensed-Thin.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		BFF328BF99BF44DC9E7C0C58 /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../assets/fonts/Barlow Condensed/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		683FF109D15C4321A4181093 /* README.txt */ = {isa = PBXFileReference; name = "README.txt"; path = "../assets/fonts/Plus Jakarta Sans/README.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		875894C91E08432CB617A851 /* BarlowCondensed-Black.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Black.ttf"; path = "../assets/fonts/BarlowCondensed-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1420A5B87A584745B511C06A /* BarlowCondensed-BlackItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-BlackItalic.ttf"; path = "../assets/fonts/BarlowCondensed-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		69451985C77D4BD9B0C5F5C6 /* BarlowCondensed-Bold.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Bold.ttf"; path = "../assets/fonts/BarlowCondensed-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		231A6A94355B4385856193B5 /* BarlowCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-BoldItalic.ttf"; path = "../assets/fonts/BarlowCondensed-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4EB0EFC87F054750AFF992E8 /* BarlowCondensed-ExtraBold.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-ExtraBold.ttf"; path = "../assets/fonts/BarlowCondensed-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7D112D57DA8A48D9AEAB120C /* BarlowCondensed-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-ExtraBoldItalic.ttf"; path = "../assets/fonts/BarlowCondensed-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7CFFBC50B652460BA9B4E52E /* BarlowCondensed-ExtraLight.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-ExtraLight.ttf"; path = "../assets/fonts/BarlowCondensed-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CE75B57AE05E4AE6B05F467E /* BarlowCondensed-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-ExtraLightItalic.ttf"; path = "../assets/fonts/BarlowCondensed-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EFE9612548B3493A967C95B7 /* BarlowCondensed-Italic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Italic.ttf"; path = "../assets/fonts/BarlowCondensed-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		88A139B8F31D41A0B44AFE1A /* BarlowCondensed-Light.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Light.ttf"; path = "../assets/fonts/BarlowCondensed-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4CBB644A686D409F922D4503 /* BarlowCondensed-LightItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-LightItalic.ttf"; path = "../assets/fonts/BarlowCondensed-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A875FD16387848BEA660F76E /* BarlowCondensed-Medium.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Medium.ttf"; path = "../assets/fonts/BarlowCondensed-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		55D0BB278451432FA6EE7B43 /* BarlowCondensed-MediumItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-MediumItalic.ttf"; path = "../assets/fonts/BarlowCondensed-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		019A5165311E4A9E9D58A9B1 /* BarlowCondensed-Regular.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Regular.ttf"; path = "../assets/fonts/BarlowCondensed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8B17224900EB42A3AFCA1AEB /* BarlowCondensed-SemiBold.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-SemiBold.ttf"; path = "../assets/fonts/BarlowCondensed-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7EAD05C44E50423489D49B52 /* BarlowCondensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-SemiBoldItalic.ttf"; path = "../assets/fonts/BarlowCondensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EB4FFE2DA7F746A3AB797240 /* BarlowCondensed-Thin.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Thin.ttf"; path = "../assets/fonts/BarlowCondensed-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		90A4767DA822439EBDFF7A30 /* BarlowCondensed-ThinItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-ThinItalic.ttf"; path = "../assets/fonts/BarlowCondensed-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		47483558AE904EA0B476F676 /* PlusJakartaSans-Bold.ttf */ = {isa = PBXFileReference; name = "PlusJakartaSans-Bold.ttf"; path = "../assets/fonts/PlusJakartaSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		38AE0D7149AE48CA9A6F50CD /* PlusJakartaSans-BoldItalic.ttf */ = {isa = PBXFileReference; name = "PlusJakartaSans-BoldItalic.ttf"; path = "../assets/fonts/PlusJakartaSans-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E41E27F269784C22875E7A7A /* PlusJakartaSans-ExtraBold.ttf */ = {isa = PBXFileReference; name = "PlusJakartaSans-ExtraBold.ttf"; path = "../assets/fonts/PlusJakartaSans-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E5435ADB8F4A47818B10A6A2 /* PlusJakartaSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "PlusJakartaSans-ExtraBoldItalic.ttf"; path = "../assets/fonts/PlusJakartaSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		198369D1253142C1993FE02F /* PlusJakartaSans-ExtraLight.ttf */ = {isa = PBXFileReference; name = "PlusJakartaSans-ExtraLight.ttf"; path = "../assets/fonts/PlusJakartaSans-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8B88D48D47D84F039EBFD925 /* PlusJakartaSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "PlusJakartaSans-ExtraLightItalic.ttf"; path = "../assets/fonts/PlusJakartaSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0F0C606265C849A3A6F11324 /* PlusJakartaSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "PlusJakartaSans-Italic-VariableFont_wght.ttf"; path = "../assets/fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D18DC46FE0714872AF18DAC6 /* PlusJakartaSans-Italic.ttf */ = {isa = PBXFileReference; name = "PlusJakartaSans-Italic.ttf"; path = "../assets/fonts/PlusJakartaSans-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		82ADC58C282449E9A23DD4AE /* PlusJakartaSans-Light.ttf */ = {isa = PBXFileReference; name = "PlusJakartaSans-Light.ttf"; path = "../assets/fonts/PlusJakartaSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6508AA1EC6AB4CE0A36A8BE4 /* PlusJakartaSans-LightItalic.ttf */ = {isa = PBXFileReference; name = "PlusJakartaSans-LightItalic.ttf"; path = "../assets/fonts/PlusJakartaSans-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1D07E25695DF4B86BDED0D1C /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; name = "PlusJakartaSans-Medium.ttf"; path = "../assets/fonts/PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		80CACBF5621E4E69ADD82D1A /* PlusJakartaSans-MediumItalic.ttf */ = {isa = PBXFileReference; name = "PlusJakartaSans-MediumItalic.ttf"; path = "../assets/fonts/PlusJakartaSans-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B28375FF3578455DA0A10310 /* PlusJakartaSans-Regular.ttf */ = {isa = PBXFileReference; name = "PlusJakartaSans-Regular.ttf"; path = "../assets/fonts/PlusJakartaSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9F4366414D95419B9514CDCF /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "PlusJakartaSans-SemiBold.ttf"; path = "../assets/fonts/PlusJakartaSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0DB5F4CBD9F04FA593A34BFC /* PlusJakartaSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "PlusJakartaSans-SemiBoldItalic.ttf"; path = "../assets/fonts/PlusJakartaSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F098573143D2484EBF37330C /* PlusJakartaSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "PlusJakartaSans-VariableFont_wght.ttf"; path = "../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AAB963A72E0947309740E3D5 /* Righteous-Regular.ttf */ = {isa = PBXFileReference; name = "Righteous-Regular.ttf"; path = "../assets/fonts/Righteous-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EFE9612548B3493A967C95B7 /* BarlowCondensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BarlowCondensed-Italic.ttf"; path = "../assets/fonts/BarlowCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		F098573143D2484EBF37330C /* PlusJakartaSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-VariableFont_wght.ttf"; path = "../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		F5228032DBFFC62E94CEE540 /* Pods-KickstartWeather-KickstartWeatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickstartWeather-KickstartWeatherTests.debug.xcconfig"; path = "Target Support Files/Pods-KickstartWeather-KickstartWeatherTests/Pods-KickstartWeather-KickstartWeatherTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A34768B79A6A200352C0B431 /* libPods-KickstartWeather-KickstartWeatherTests.a in Frameworks */,
+				82ED8458BC9AE02C7C94838A /* libPods-KickstartWeather-KickstartWeatherTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C11DC83EA332E6649C3F65B6 /* libPods-KickstartWeather.a in Frameworks */,
+				B64F728400D574D9C5C673F7 /* libPods-KickstartWeather.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,57 +177,14 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5E8FF04955E0636EE92E3CC0 /* libPods-KickstartWeather.a */,
-				DC4AD8FA8E63ACF1143B819F /* libPods-KickstartWeather-KickstartWeatherTests.a */,
+				6ED537CE24AE3393B41AD14B /* libPods-KickstartWeather.a */,
+				8130706215A4AEC066835D73 /* libPods-KickstartWeather-KickstartWeatherTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Libraries;
-			sourceTree = "<group>";
-		};
-		83CBB9F61A601CBA00E9B192 = {
-			isa = PBXGroup;
-			children = (
-				13B07FAE1A68108700A75B9A /* KickstartWeather */,
-				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* KickstartWeatherTests */,
-				83CBBA001A601CBA00E9B192 /* Products */,
-				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				BBD78D7AC51CEA395F1C20DB /* Pods */,
-				82CD1EAB21A74A04A5274CCD /* Resources */,
-			);
-			indentWidth = 2;
-			sourceTree = "<group>";
-			tabWidth = 2;
-			usesTabs = 0;
-		};
-		83CBBA001A601CBA00E9B192 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				13B07F961A680F5B00A75B9A /* KickstartWeather.app */,
-				00E356EE1AD99517003FC87E /* KickstartWeatherTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AC4DA1A4D068D443DBB276AB /* Pods-KickstartWeather.debug.xcconfig */,
-				CE70B513165FAE0D88C3F3BA /* Pods-KickstartWeather.release.xcconfig */,
-				1100C6623030CD597D04254B /* Pods-KickstartWeather-KickstartWeatherTests.debug.xcconfig */,
-				2C0A04A7A8577FEBD3E4E354 /* Pods-KickstartWeather-KickstartWeatherTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		82CD1EAB21A74A04A5274CCD /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				BFF328BF99BF44DC9E7C0C58 /* OFL.txt */,
 				683FF109D15C4321A4181093 /* README.txt */,
@@ -268,8 +225,51 @@
 				AAB963A72E0947309740E3D5 /* Righteous-Regular.ttf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
 			path = "";
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* KickstartWeather */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* KickstartWeatherTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				82CD1EAB21A74A04A5274CCD /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* KickstartWeather.app */,
+				00E356EE1AD99517003FC87E /* KickstartWeatherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				609422E308A0BE00BC7BF87B /* Pods-KickstartWeather.debug.xcconfig */,
+				6E1052F2FF09D79065EA06CB /* Pods-KickstartWeather.release.xcconfig */,
+				F5228032DBFFC62E94CEE540 /* Pods-KickstartWeather-KickstartWeatherTests.debug.xcconfig */,
+				0DD333DC585E057C1AA5BB28 /* Pods-KickstartWeather-KickstartWeatherTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -278,12 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "KickstartWeatherTests" */;
 			buildPhases = (
-				43182C78F8CA2A6923617AF0 /* [CP] Check Pods Manifest.lock */,
+				D38FF6575F8B98B5302DAD65 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				4D7B1F5296D3F303B0CA11AB /* [CP] Embed Pods Frameworks */,
-				3856F8AC097CACA7B9640804 /* [CP] Copy Pods Resources */,
+				C972497574F9DA80444BF718 /* [CP] Embed Pods Frameworks */,
+				CBD0B83ABA9EE00488FD918F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,13 +299,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "KickstartWeather" */;
 			buildPhases = (
-				2AF71D71A2A695294AFA6273 /* [CP] Check Pods Manifest.lock */,
+				17937D51F7A92E9176D29E7D /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				0D3232648BB2EE2771346EC5 /* [CP] Embed Pods Frameworks */,
-				793B01458929B6E5279940A2 /* [CP] Copy Pods Resources */,
+				5DC64D8AA29310F8C93E1F34 /* [CP] Embed Pods Frameworks */,
+				9D97BB727E6557D582628965 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -426,24 +426,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n\n../node_modules/react-native-vector-image/strip_svgs.sh\n";
 		};
-		0D3232648BB2EE2771346EC5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather/Pods-KickstartWeather-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather/Pods-KickstartWeather-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather/Pods-KickstartWeather-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2AF71D71A2A695294AFA6273 /* [CP] Check Pods Manifest.lock */ = {
+		17937D51F7A92E9176D29E7D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -465,7 +448,58 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3856F8AC097CACA7B9640804 /* [CP] Copy Pods Resources */ = {
+		5DC64D8AA29310F8C93E1F34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather/Pods-KickstartWeather-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather/Pods-KickstartWeather-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather/Pods-KickstartWeather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D97BB727E6557D582628965 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather/Pods-KickstartWeather-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather/Pods-KickstartWeather-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather/Pods-KickstartWeather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C972497574F9DA80444BF718 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather-KickstartWeatherTests/Pods-KickstartWeather-KickstartWeatherTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather-KickstartWeatherTests/Pods-KickstartWeather-KickstartWeatherTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather-KickstartWeatherTests/Pods-KickstartWeather-KickstartWeatherTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBD0B83ABA9EE00488FD918F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -482,7 +516,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather-KickstartWeatherTests/Pods-KickstartWeather-KickstartWeatherTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		43182C78F8CA2A6923617AF0 /* [CP] Check Pods Manifest.lock */ = {
+		D38FF6575F8B98B5302DAD65 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -502,40 +536,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4D7B1F5296D3F303B0CA11AB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather-KickstartWeatherTests/Pods-KickstartWeather-KickstartWeatherTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather-KickstartWeatherTests/Pods-KickstartWeather-KickstartWeatherTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather-KickstartWeatherTests/Pods-KickstartWeather-KickstartWeatherTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		793B01458929B6E5279940A2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather/Pods-KickstartWeather-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather/Pods-KickstartWeather-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KickstartWeather/Pods-KickstartWeather-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -571,7 +571,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1100C6623030CD597D04254B /* Pods-KickstartWeather-KickstartWeatherTests.debug.xcconfig */;
+			baseConfigurationReference = F5228032DBFFC62E94CEE540 /* Pods-KickstartWeather-KickstartWeatherTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -598,7 +598,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C0A04A7A8577FEBD3E4E354 /* Pods-KickstartWeather-KickstartWeatherTests.release.xcconfig */;
+			baseConfigurationReference = 0DD333DC585E057C1AA5BB28 /* Pods-KickstartWeather-KickstartWeatherTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -622,7 +622,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC4DA1A4D068D443DBB276AB /* Pods-KickstartWeather.debug.xcconfig */;
+			baseConfigurationReference = 609422E308A0BE00BC7BF87B /* Pods-KickstartWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -651,7 +651,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE70B513165FAE0D88C3F3BA /* Pods-KickstartWeather.release.xcconfig */;
+			baseConfigurationReference = 6E1052F2FF09D79065EA06CB /* Pods-KickstartWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

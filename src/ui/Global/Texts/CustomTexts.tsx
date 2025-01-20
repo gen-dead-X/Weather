@@ -1,5 +1,6 @@
 import React from 'react';
 import {StyleSheet, Text, TextProps} from 'react-native';
+import {useStore} from '../../../store/store';
 
 export function TextJakarta({children, style, ...props}: TextProps) {
   return (
@@ -30,13 +31,21 @@ export function TextBarlow({children, style, ...props}: TextProps) {
 }
 
 export function TextRighteous({children, style, ...props}: TextProps) {
+  const appTheme = useStore(state => state.appTheme);
+
   return (
     <Text
       maxFontSizeMultiplier={1}
       allowFontScaling={false}
       adjustsFontSizeToFit={false}
       className={`text-black dark:text-white ${props.className}`}
-      style={[styles.righteous, style]}
+      style={[
+        styles.righteous,
+        {
+          color: appTheme === 'dark' ? 'white' : 'black',
+        },
+        style,
+      ]}
       {...props}>
       {children}
     </Text>

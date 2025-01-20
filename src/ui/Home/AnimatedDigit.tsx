@@ -27,16 +27,16 @@ export default function AnimatedDigit({
     return {
       transform: [
         {translateY: translateY.value},
-        {rotateX: '20deg'},
-        {rotateY: '20deg'},
+        {rotateX: '15deg'},
+        {rotateY: '15deg'},
         {perspective: 1000},
       ],
       opacity: opacity.value,
-      shadowColor: 'gray',
-      shadowOffset: {width: 0, height: 4},
-      shadowOpacity: 1,
-      shadowRadius: 10,
-      elevation: 10, // For Android
+      // shadowColor: 'gray',
+      // shadowOffset: {width: 0, height: 4},
+      // shadowOpacity: 1,
+      // shadowRadius: 10,
+      // elevation: 10,
     };
   });
 
